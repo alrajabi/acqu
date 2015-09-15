@@ -11,7 +11,7 @@ Reconstruct:
 #
 
 # General:      dbhost     dbname                  dbuser      dbpass        calibration
-#Use-CaLib:      localhost   goat_analysis_test   calib       basel10       2014-10-AR-test      
+Use-CaLib:      localhost   compton_sigma2z_2014_1   calib       basel10       2014_05_Compton_Rajabi      
 #
 #
 # tagger calib:     time    efficiency (0=off/1=on)
