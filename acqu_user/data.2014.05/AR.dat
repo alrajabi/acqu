@@ -18,6 +18,7 @@ Branch:	  Mk1_Header            120000
 ##
 ## Directory to save any created ROOT files (include final / )
 Directory: /home/al/output/
+#Directory: /media/external/Ali/
 ##
 ## User-defined analysis class
 Analysis: TA2UserAnalysis
@@ -28,4 +29,5 @@ AnalysisSetup: Analysis.dat
 #AnalysisSetup: GoAT-Pi0.dat
 ##
 ## Set up of data files
-ServerSetup: data/Server.dat
+#ServerSetup: data/Server.dat
+ServerSetup: data/Server_Carbon.dat
