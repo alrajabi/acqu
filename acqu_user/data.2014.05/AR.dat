@@ -18,7 +18,7 @@ Branch:	  Mk1_Header            120000
 ##
 ## Directory to save any created ROOT files (include final / )
 Directory: /home/al/output/
-#Directory: /media/external/Ali/
+#Directory: /media/external/al/carbon_part2/
 ##
 ## User-defined analysis class
 Analysis: TA2UserAnalysis

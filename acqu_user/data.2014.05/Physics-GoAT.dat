@@ -27,6 +27,7 @@ Reconstruct:
 #Use-CaLib-Veto:     1       1       0
 
 #Use-CaLib-CBEnergyPerRun: 	data/CBEnergyCorrectionPerRun.txt
+#RootTree-Output-Folder:         /media/external/output/
 RootTree-Output-Folder:         ~/output/
 RootTree-File-Name:		Acqu
 
