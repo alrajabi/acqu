@@ -17,8 +17,9 @@ Branch:	  RawEvent_Scalers	4192
 Branch:	  Mk1_Header            120000
 ##
 ## Directory to save any created ROOT files (include final / )
-Directory: /home/al/output/
-#Directory: /media/external/al/carbon_part2/
+#Directory: /home/al/output/
+Directory: /media/al/MainzBackup/CarbonOutput/
+#Directory: /media/al/MainzBackup/Butanol2014/AcquOutput/
 ##
 ## User-defined analysis class
 Analysis: TA2UserAnalysis
@@ -30,4 +31,4 @@ AnalysisSetup: Analysis.dat
 ##
 ## Set up of data files
 #ServerSetup: data/Server.dat
-ServerSetup: data/Server_Carbon.dat
+ServerSetup: data/Server_Carbon2.dat
