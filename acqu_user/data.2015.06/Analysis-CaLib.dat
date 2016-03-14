@@ -61,7 +61,7 @@ Reconstruct-Analysis:
 ##
 ## Specify physics analysis
 ##                  Name      Class                    Config File
-#Physics-Analysis:   Phys      TA2MyCaLib	       Physics-CaLib.dat
+Physics-Analysis:   Phys      TA2MyCaLib	       Physics-CaLib.dat
 ##
 ## Do some post initialisation...usually necessary
 Initialise:

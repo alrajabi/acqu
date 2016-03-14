@@ -108,8 +108,8 @@ void CBEnergy()
     Bool_t watch = kTRUE;
     const Char_t* data = "Data.CB.E1";
     const Char_t* hName = "CaLib_CB_IM_Neut";
-    Double_t yMin = 110;
-    Double_t yMax = 160;   
+    Double_t yMin = 90;
+    Double_t yMax = 180;   
     
     
     // create histogram
@@ -156,7 +156,7 @@ void CBEnergy()
 
             
             // load ROOT file
-            sprintf(tmp, "%s/Hist_CBTaggTAPS_%d.root", fLoc, runs[j]);
+            sprintf(tmp, "%s/CaLib_CBTaggTAPS_%d.root", fLoc, runs[j]);
             TFile* gFile = new TFile(tmp);
 
             // check file

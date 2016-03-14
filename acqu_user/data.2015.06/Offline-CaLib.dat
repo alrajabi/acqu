@@ -29,7 +29,7 @@
 UseDirectIO:
 ##
 ## Batch mode operation...redirect output directory for log files etc.
-BatchDir: logfiles/
+#BatchDir: logfiles/
 ##
 ##        Tree Name     	# branches	Process Type
 Name:     RawEvent_AR_Save	3		Raw
@@ -41,7 +41,8 @@ Branch:	  Mk1_Header            120000
 ## List of Tree files which will form the input TChain for --offline running
 ##
 ## Directory to save any created ROOT files (include final / )
-Directory: output/
+#Directory: output/
+Directory: /home/al/analysis/calib/
 ##
 ## Manual setup of ADC, Scaler, bits-in-ADC numbers
 ## Usually needed only where experiment header information is not given
@@ -78,3 +79,4 @@ AnalysisSetup: Analysis-CaLib.dat
 ## Online running...setup of data server
 ## This is ignored for offline running and may be left in
 ServerSetup: data/Server-CaLib.dat
+#ServerSetup: data/Server_Carbon2015.dat

@@ -15,7 +15,7 @@ Input-Streams:	1		32768		0
 # Optional directory spec. 
 # If not specified File-Names must contain the full directory path
 #File-Directory:	~/analysis/raw_data/
-File-Directory: /media/external/al/carbon2015/
+File-Directory: 	/media/al/MainzBackup/Data/
 #File-Directory:	/home/al/output/carbon_part2/
 #
 ##############################################################################

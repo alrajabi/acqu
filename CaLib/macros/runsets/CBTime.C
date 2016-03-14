@@ -133,7 +133,7 @@ void CBTime()
 
             
             // load ROOT file
-            sprintf(tmp, "%s/Hist_CBTaggTAPS_%d.root", fLoc, runs[j]);
+            sprintf(tmp, "%s/CaLib_CBTaggTAPS_%d.root", fLoc, runs[j]);
             TFile* gFile = new TFile(tmp);
 
             // check file

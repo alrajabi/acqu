@@ -18,7 +18,7 @@ Branch:	  Mk1_Header            120000
 ##
 ## Directory to save any created ROOT files (include final / )
 #Directory: /home/al/output/
-Directory: /media/al/MainzBackup/CarbonOutput/
+Directory: /media/al/750gb/CarbonOutput/
 #Directory: /media/al/MainzBackup/Butanol2014/AcquOutput/
 ##
 ## User-defined analysis class
