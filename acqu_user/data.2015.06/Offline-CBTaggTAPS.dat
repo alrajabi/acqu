@@ -26,7 +26,7 @@
 ## NB with TAPS the number of ADCs = 29001
 ##-----------------------------------------------------------------------
 # Use DirectIO mode (experimental)
-UseDirectIO:
+#UseDirectIO:
 ##
 ## Batch mode operation...redirect output directory for log files etc.
 BatchDir: logfiles/
@@ -41,7 +41,7 @@ Branch:	  Mk1_Header            120000
 ## List of Tree files which will form the input TChain for --offline running
 ##
 ## Directory to save any created ROOT files (include final / )
-Directory: output/
+Directory: ~/Acqu_output/
 ##
 ## Manual setup of ADC, Scaler, bits-in-ADC numbers
 ## Usually needed only where experiment header information is not given
@@ -77,4 +77,5 @@ AnalysisSetup: Analysis-CBTaggTAPS.dat
 ##
 ## Online running...setup of data server
 ## This is ignored for offline running and may be left in
-ServerSetup: data/Server-CBTaggTAPS.dat
+#ServerSetup: data/Server-CBTaggTAPS.dat
+ServerSetup: data/Server_Butanol2015.dat

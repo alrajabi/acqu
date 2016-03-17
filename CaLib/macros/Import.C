@@ -20,7 +20,7 @@ void Import()
     gSystem->Load("libCaLib.so");
     
     // import CaLib data
-    TCMySQLManager::GetManager()->Import("2014_04_Compton_Paudyal.root", kFALSE, kTRUE, "Carbon_04_2014");
+    TCMySQLManager::GetManager()->Import("2015_06_Compton_Paudyal_Runs.root", kFALSE, kTRUE, "Butanol_06_2015");
   
     gSystem->Exit(0);
 }

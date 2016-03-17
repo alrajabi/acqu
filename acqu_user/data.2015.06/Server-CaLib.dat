@@ -16,7 +16,7 @@ Input-Streams:	1		327680		0
 ##
 ## Optional directory spec. If not specified File-Names must contain the full
 ## directory path
-File-Directory: 	/media/al/myPassport/Carbon2015/
+File-Directory: 	/home/al/usb/Carbon2015/
 #File-Directory: scratch/
 ##
 ## Specify each input stream
@@ -75,8 +75,8 @@ File-Name:		CBTaggTAPS_9873.dat.xz 0 0
 #File-Name:		CBTaggTAPS_9874.dat.xz 0 0
 File-Name:		CBTaggTAPS_9875.dat.xz 0 0
 File-Name:		CBTaggTAPS_9876.dat.xz 0 0
-File-Name:		CBTaggTAPS_9877.dat.xz 0 0
-File-Name:		CBTaggTAPS_9878.dat.xz 0 0
+######File-Name:		CBTaggTAPS_9877.dat.xz 0 0
+######File-Name:		CBTaggTAPS_9878.dat.xz 0 0
 File-Name:		CBTaggTAPS_9879.dat.xz 0 0
 File-Name:		CBTaggTAPS_9880.dat.xz 0 0
 #File-Name:		CBTaggTAPS_9881.dat.xz 0 0

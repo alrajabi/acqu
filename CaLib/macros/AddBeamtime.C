@@ -22,10 +22,10 @@ void AddBeamtime()
  
     // macro configuration: just change here for your beamtime and leave
     // the other parts of the code unchanged
-    const Int_t firstRun            = 3407;
-    const Int_t lastRun             = 3646;
-    const Char_t calibName[]        = "2014-04-Compton-Carbon";
-    const Char_t calibDesc[]        = "Calibration for April 2014 Sigma2z-Carbon Beamtime";
+    const Int_t firstRun            = 9226;
+    const Int_t lastRun             = 9804;
+    const Char_t calibName[]        = "2015-06-Compton-Butanol";
+    const Char_t calibDesc[]        = "Calibration for June 2015 Sigma2z-Butanol Beamtime";
     const Char_t calibFileTagger[]  = "../acqu_user/data/Tagger/FP.dat";
     //const Char_t calibFileTagger[]  = "../acqu_user/data/Detector-FPD-450-New.dat";
     const Char_t calibFileCB[]      = "../acqu_user/data/Detector-NaI.dat";
@@ -35,8 +35,8 @@ void AddBeamtime()
 
     // Adding the runfiles should be done by maintainers only!
     // add raw files to the database
-    const Char_t rawfilePath[]      = "/media/al/MainzBackup/Carbon2014";
-    const Char_t target[]           = "Carbon";    
+    const Char_t rawfilePath[]      = "/home/al/usb/Butanol2015";
+    const Char_t target[]           = "Butanol";    
     TCMySQLManager::GetManager()->AddRunFiles(rawfilePath, target);
     
     // read AcquRoot calibration of tagger
