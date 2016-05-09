@@ -41,8 +41,9 @@ Branch:	  Mk1_Header            120000
 ## List of Tree files which will form the input TChain for --offline running
 ##
 ## Directory to save any created ROOT files (include final / )
-#Directory: output/
-Directory: /home/al/calib/
+#Directory: ~/Acqu_output/
+#Directory: ~/usb/2015_bin/pi0/Carbon/
+Directory: ~/results/carb15/
 ##
 ## Manual setup of ADC, Scaler, bits-in-ADC numbers
 ## Usually needed only where experiment header information is not given
@@ -64,7 +65,7 @@ Directory: /home/al/calib/
 Analysis: TA2UserAnalysis
 ##
 ## Analysis setup file
-AnalysisSetup: Analysis-CaLib.dat
+AnalysisSetup: Analysis-CBTaggTAPS.dat
 ##
 ## Specify non-clearing scalers
 #ScalerNoClear: 12 139
@@ -78,5 +79,4 @@ AnalysisSetup: Analysis-CaLib.dat
 ##
 ## Online running...setup of data server
 ## This is ignored for offline running and may be left in
-ServerSetup: data/Server-CaLib.dat
-#ServerSetup: data/Server_Carbon2015.dat
+ServerSetup: data/Server_Carbon2015.dat

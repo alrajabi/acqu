@@ -53,17 +53,24 @@ Branch:   emwpc         1024
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 #ROOT file(s) (GEANT4 output) to be analysed. Add more lines for more files
 #
-TreeFile: /home/al/analysis/a2geant/pi0/Jan11/A2G4_SAID.root
+#TreeFile: /home/al/analysis/a2geant/pi0/Jan11/A2G4_SAID.root
+#TreeFile: /home/al/results/MC/SAID_1.root
+#TreeFile: /home/al/results/MC/SAID_2.root
+#TreeFile: /home/al/results/MC/SAID_3.root
+TreeFile: /home/al/results/MC/SAID_4.root
+#TreeFile: /home/al/results/MC/SAID_5.root
+#TreeFile: /home/al/results/MC/SAID_6.root
+
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 #
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Batch mode operation...redirect output directory for log files etc.
-BatchDir: /home/al/analysis/a2geant/pi0/Jan11/
+#BatchDir: /home/al/results/MC/
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 #
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 #Directory to save any created ROOT files (include final '/')
-Directory: /home/al/analysis/a2geant/pi0/Jan11/
+Directory: /home/al/results/MC/Acqu/
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 #
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

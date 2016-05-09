@@ -12,11 +12,13 @@ Reconstruct:
 #
 
 # General:      dbhost     dbname                  dbuser      dbpass        calibration
-Use-CaLib:      localhost    compton_sigma2z_2015_carbon   calib       basel10       2015-07-Compton-Carbon
+#Use-CaLib:      localhost    compton_sigma2z_2015_carbon   calib       basel10       2015-07-Compton-Carbon
+#Use-CaLib:      calibdbhost    compton_sigma2z_2015_carbon   calib       basel10       2015-07-Compton-Carbon
+Use-CaLib:      localhost    Compton_2015   calib       basel10       2015-07-Compton-Carbon
 #
 #
 # tagger calib:     time    efficiency (0=off/1=on)
-Use-CaLib-TAGG:     0       0
+Use-CaLib-TAGG:     1       0
 # CB calib:         energy  time    timewalk    quadr. energy    led  (0=off/1=on)
 Use-CaLib-CB:       1       1       0           0                0 
 # TAPS calib:       energy  time    quadr. energy   LED thr.    CFD thr.  (0=off/1=on)
@@ -24,7 +26,7 @@ Use-CaLib-TAPS:     0       0       0               0           0
 # PID calib:        phi     energy  time  (0=off/1=on)
 Use-CaLib-PID:      0       0       0
 # Veto calib:       energy  time    LED thr. (0=off/1=on)
-Use-CaLib-Veto:     0       1       0
+Use-CaLib-Veto:     0       0       0
 
 CaLib-TAPS-Time-Cut: -2.5 2.5
 CaLib-TAPS-Time-Cut-MaxRing: 4
@@ -58,7 +60,7 @@ CaLib-TAPS-Time: 0
 # PID time calibration
 CaLib-PID-Time: 0
 # Veto time
-CaLib-Veto-Time: 1
+CaLib-Veto-Time: 0
 
 ### STEP FOUR
 
